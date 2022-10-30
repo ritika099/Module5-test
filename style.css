@@ -1,0 +1,103 @@
+nav {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+nav ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banner, .about-banner {
+    margin-top: 60px;
+    height: 50vh;
+    position: relative;
+}
+
+.about-banner {
+    height: 60vh;
+}
+
+.about-banner .banner-sec {
+ height: 60vh;
+}
+
+.banner-sec {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.banner-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+}
+
+.part1 {
+    position: relative;
+}
+
+.part1 .projtitle{
+    margin-top: 20px;
+}
+
+.part1 .link {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.part2 {
+    padding: 10px;
+}
+
+.part2 .img-box{
+    background: gray;
+    height: 100%;
+}
+
+.proj-row {
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.link {
+    color: #000;
+}
+
+a {
+    color: #000;
+}
+
+.banner-sec .about-img {
+    background: gray;
+    min-height: 50vh;
+}
+
+.about-img img{
+    height: 100%;
+}
+
+.skills-row {
+    margin-top: 20px;
+}
+
